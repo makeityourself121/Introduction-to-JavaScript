@@ -225,10 +225,15 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(){
+function annoyingSong(a){
+  for(a;a>=0;a--){
+    // let num=i-1;
+    return `${a} bottles of soda on the wall, ${a} bottles of soda, take one down pass it around ${a-1} bottles of soda on the wall`;
+    
+  }
 
 }
-
+console.log(annoyingSong(5));
         
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
