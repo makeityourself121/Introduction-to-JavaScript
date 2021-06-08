@@ -63,7 +63,6 @@ function multiply(a, b){
   }
 console.log(multiply(5,2));
 
-
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Age in Dog years
@@ -170,8 +169,8 @@ Using the miles function below do the following:
 */
 
 function miles(km){
-    return km/1.609344;
-  }
+  return km*0.621371;
+}
 console.log(miles(4));
 
 
@@ -200,10 +199,10 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(){
-        /*add your code here*/
-  }
 
+}
 
+        
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Grade Calculator
@@ -219,10 +218,20 @@ Using the grade function below do the following:
    below should return 'you got an F'
 */
   
-function grade(/*Your Code here */){
-  /*Your Code here */
+function grade(grade){
+  if(grade >= 90 && grade <= 100){
+  return 'you got an A';
+  }else if(grade >= 80 && grade <= 89){
+    return 'you got a B';
+  }else if(grade >= 70 && grade <= 79){
+    return 'you got a C';
+  }else if(grade >= 60 && grade <= 69){
+    return 'you got a D';
+  }else{
+    return 'you got an F';
   }
-  
+  }
+  console.log(grade(90));
   
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
