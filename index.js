@@ -58,10 +58,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+   return a*b;
   }
-
+console.log(multiply(5,2));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -74,10 +74,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(age){
+    return age*7;
 }
-
+console.log(dogYears(3));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -108,25 +108,25 @@ Use the hungryDog function and feeding requirements below to do the following:
 */  
 
 function hungryDog(weight, age){
-   if(age>=1&& weight<=5){
-      return weight*0.05;
-   }else if(age>=1&&weight>=6&&weight<=10){
-    return weight*0.04;
-    }else if(age>=1 &&weight>=11&&weight<=15){
-      return weight*0.03;
-} else if(age>=1 &&weight>15){
-  return weight*0.02;
-}else if(age<1&&age>=0.583){
-  return weight*0.04;
-}else if(age<0.583&&age>=0.333){
-  return weight*0.05;
-}else if(age<0.333){
-  return weight*0.10;
-}else{
-  return 'please try again';
-}
-  }
-
+   if(age >= 1 && weight <= 5){
+      return weight * 0.05;
+    }else if(age >= 1 && weight >= 6&& weight <= 10){
+      return weight * 0.04;
+    }else if(age >= 1 && weight >= 11 && weight <= 15){
+      return weight * 0.03;
+    }else if(age >= 1 && weight > 15){
+      return weight * 0.02;
+    }else if(age < 1 && age >= 0.583){
+      return weight * 0.04;
+    }else if(age <0.583 && age >= 0.333){
+      return weight * 0.05;
+    }else if(age < 0.333){
+      return weight * 0.10;
+    }else{
+      return 'please try again';
+    }
+  } 
+console.log(hungryDog(15,1));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -151,7 +151,9 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+    
+
+  
 }
   
   
@@ -167,10 +169,10 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km){
+    return km/1.609344;
   }
-
+console.log(miles(4));
 
 
 //Task 5b - Feet to CM
@@ -181,10 +183,10 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cm){
+   return cm/30.48;
   }
- 
+ console.log(feet(3))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -197,7 +199,7 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
+function annoyingSong(){
         /*add your code here*/
   }
 
